@@ -1,0 +1,105 @@
+.containter{
+    background-color: #07dba6;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex:1;
+    flex-direction: column;
+}
+
+.myImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.title {
+    color: #ffffff;
+    padding: 0px;
+    margin: 15px 0 0 0;
+}
+
+.subtitle {
+    color: #ffffff;
+    padding: 0px;
+    margin: 2px 0 0 0;
+}
+
+.notiText {
+    color: #ffffff;
+    padding: 0px;
+    margin: 10px 0 0 0;
+    font-size: small;
+}
+
+.ipWrap{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.enterText{
+    border-color: lightgray;
+    border-width: 1px;
+    height: 28px;
+}
+
+.enterBtn{
+    background-color: #7870ff;
+    color: #ffffff;
+    border-width: 0px;
+    height: 32px;
+}
+
+.itemText{
+    display: flex;
+    position: relative;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.itemList{
+    margin-top: 15px;
+}
+
+.itemWrap{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    width: 320px;
+    height: 50px;
+    background-color: #ffffff;
+    padding:0 10px 0 10px;
+    margin-top: 15px;
+}
+
+.checkBtnT{
+    cursor: pointer;
+    color: green; 
+}
+
+.checkBtnF{
+    cursor: pointer;
+    color: lightgray; 
+}
+/* .checkBtn:hover{
+    color: green;
+} */
+
+.delBtn{
+    cursor: pointer;
+    color: lightgray;
+}
+
+.delBtn:hover{
+    color: red;
+}
+
+.uniqSpan{
+    display: none;
+}

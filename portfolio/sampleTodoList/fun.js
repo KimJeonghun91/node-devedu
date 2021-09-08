@@ -11,7 +11,7 @@ let arrData = [];
 // }
 
 window.onload = () => {
-    if(window.localStorage.getItem('arrData123123') !== null){
+    if(window.localStorage.getItem('arrData') !== null){
         arrData = JSON.parse(window.localStorage.getItem('arrData'));
     }
     createList();

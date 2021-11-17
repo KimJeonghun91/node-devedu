@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./Calculator.css" media="screen" type="text/css">
+        <script src="./Calculator.js" type="text/javascript" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.9">
+        <meta charset="utf-8">
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div id="all" class="all">
+            <div class="scr">
+                <span id="result" class="result"></span>
+                <span id="screen" class="screen"></span>
+            </div>
+            <div id="buttons" class="buttons">
+                <div class="line">
+                    <div class="formula" onclick="btnCalc('/')">/</div>
+                    <div class="formula" onclick="btnCalc('*')">*</div>
+                    <div class="formula" onclick="btnCalc('-')">-</div>
+                    <div class="formula" onclick="btnCalc('+')">+</div>
+                </div>
+                <div class="line">
+                    <div class="number" onclick="btnNum('7')">7</div>
+                    <div class="number" onclick="btnNum('8')">8</div>
+                    <div class="number" onclick="btnNum('9')">9</div>
+                    <div class="formula" onclick="btnDel()">del</div>
+                </div>
+                <div class="line">
+                    <div class="number" onclick="btnNum('4')">4</div>
+                    <div class="number" onclick="btnNum('5')">5</div>
+                    <div class="number" onclick="btnNum('6')">6</div>
+                    <div class="formula" onclick="btnClear()">C</div>
+                </div>
+                <div class="line">
+                    <div class="number" onclick="btnNum('1')">1</div>
+                    <div class="number" onclick="btnNum('2')">2</div>
+                    <div class="number" onclick="btnNum('3')">3</div>
+                    <div class="formula"></div>
+                </div>
+                <div class="line">
+                    <div class="number"></div>
+                    <div class="number" onclick="btnNum('0')">0</div>
+                    <div class="number"></div>
+                    <div class="same" onclick="equal()">=</div>
+                </div>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    line-height: 95px;
+}
+
+.all {
+    width: 406px;
+    height: 612px;
+    background-color: #7a787c;
+}
+
+.scr {
+    display: flex;
+    width: 406px;
+    height: 95px;
+    flex-direction: column;
+    text-align: right;
+    line-height: 65px;
+}
+
+.result {
+    width: 100%;
+    height: 40%;
+    font-size: 25px;
+}
+
+.screen {
+    width: 100%;
+    height: 60%;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.line {
+    flex-direction: row;
+    display: flex;
+}
+
+.formula {
+    background-color: #8f8d8d;
+    width: 100px;
+    height: 100px;
+    margin: 0 2px 2px 0;
+}
+.formula:hover {
+    background-color: #565458;
+}
+.formula:active {
+    background-color: rgb(255, 102, 0);
+}
+
+.number {
+    background-color: rgb(228, 220, 220);
+    width: 100px;
+    height: 100px;
+    margin: 0 2px 2px 0;
+}
+.number:hover {
+    background-color: #565458;
+}
+.number:active {
+    background-color: rgb(255, 102, 0);
+}
+
+.same {
+    background-color: rgb(30, 236, 236);
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    margin: 0 2px 2px 0;
+}
+.same:hover {
+    background-color: #4eadb4;
+}
+.same:active {
+    background-color: rgb(255, 102, 0);
+}
